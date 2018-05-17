@@ -42,7 +42,7 @@ body {
 }
 
 .cover-container {
-  background-image: url('http://appuniver.se/wp-content/uploads/2017/06/home-head.jpg');
+  background-image: url('../img/home-head.jpg');
 }
 
 
@@ -146,7 +146,7 @@ body {
 }
 
 .idea-section {
-  background-image: url('https://appuniver.se/wp-content/uploads/2017/06/home-bg-07.jpg');
+  background-image: url('../img/home-bg-07.jpg');
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -384,3 +384,7 @@ a:active, a:focus, a:hover, a:link, a:visited {
   -webkit-transition: color .1s ease-in-out,background .1s ease-in-out,border .1s ease-in-out;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 196px;
+}
