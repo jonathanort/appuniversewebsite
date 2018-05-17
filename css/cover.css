@@ -147,8 +147,8 @@ body {
 
 .idea-section {
   background-image: url('https://appuniver.se/wp-content/uploads/2017/06/home-bg-07.jpg');
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .footer-text {
@@ -167,6 +167,31 @@ body {
   font-weight: 300;
   padding-top: 0px;
   padding-bottom: 100px;
+}
+
+.idea-title {
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  font-size: 42px;
+  color: #fff;
+  text-align: center;
+  font-style: inherit;
+  font-weight: 400;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.idea-subtitle {
+  letter-spacing: 0px;
+  text-transform: none;
+  font-size: 18px;
+  line-height: 200%;
+  color: #fff;
+  text-align: center;
+  font-style: inherit;
+  font-weight: 300;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 48em) {
@@ -295,3 +320,42 @@ a:active, a:focus, a:hover, a:link, a:visited {
   transition: color .1s ease-in-out,background .1s ease-in-out,border .1s ease-in-out;
   -webkit-transition: color .1s ease-in-out,background .1s ease-in-out,border .1s ease-in-out;
 }
+
+
+#mk-button-33 .mk-button {
+  background-color: #3b65ce;
+}
+
+#mk-button-33 .mk-button:hover {
+  color: #fff!important;
+  background-color: #184cce;
+}
+
+#mk-button-33 .mk-button {
+  width: 160px;
+}
+#mk-button-33 .mk-button {
+  display: inline-block;
+  max-width: 100%;
+}
+.mk-button--dimension-flat.text-color-light {
+  color: #fff;
+}
+a:active, a:focus, a:hover, a:link, a:visited {
+  outline: 0 none;
+  text-decoration: none;
+}
+.mk-button--size-medium {
+  padding: 14px 24px;
+  font-size: 12px;
+  line-height: 100%;
+}
+.mk-button--corner-full_rounded, .mk-button--corner-full_rounded .double-outline-inside {
+  border-radius: 50px;
+}
+.mk-button {
+  box-sizing: border-box;
+  transition: color .1s ease-in-out,background .1s ease-in-out,border .1s ease-in-out;
+  -webkit-transition: color .1s ease-in-out,background .1s ease-in-out,border .1s ease-in-out;
+}
+
