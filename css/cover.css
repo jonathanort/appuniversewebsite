@@ -246,6 +246,11 @@ body {
   max-width: 1140px;
 }
 
+.rounded-circle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 #mk-button-25 .mk-button {
   border-color: #3c3c3c;
